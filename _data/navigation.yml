@@ -10,6 +10,9 @@ main:
 docs:
   - title: 프론트엔드
     children:
+      - title: "JS"
+        url: /categories/javascript
+        category: "javascript"
       - title: "React"
         url: /categories/react
         category: "react"
