@@ -1,12 +1,25 @@
-# main links
+#  main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "velog"
+    url: https://velog.io/@ghenmaru/posts
+
+docs:
+  - title: 프론트엔드
+    children:
+      - title: "React"
+        url: /categories/react
+        category: "react"
+      - title: "우아한테크코스"
+        url: /categories/woowacourse
+        category: "woowacourse"
+      - title: "회고"
+        url: /categories/retrospect
+        category: "retrospect"
+
+counts:
+  - title: "Category"
+    use: true
