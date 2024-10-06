@@ -16,6 +16,9 @@ docs:
       - title: "React"
         url: /categories/react
         category: "react"
+      - title: "Web"
+        url: /categories/web
+        category: "web"
       - title: "우아한테크코스"
         url: /categories/woowacourse
         category: "woowacourse"
