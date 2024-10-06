@@ -1,6 +1,6 @@
 ---
 title: "깃 블로그 시작"
-layout: archive
+layout: single
 
 categories:
   - etc
@@ -10,8 +10,6 @@ tags:
 toc_label:
 toc: true
 toc_sticky: true
-
-date: 2024-10-05
 ---
 
 # 깃 블로그 설정 완료 !!!
