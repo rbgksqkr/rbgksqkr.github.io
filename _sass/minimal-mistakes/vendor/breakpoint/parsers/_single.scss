@@ -4,11 +4,11 @@
 @import "single/default";
 
 @function breakpoint-parse-single($feature, $empty-media, $first) {
-  $parsed: '';
-  $leader: '';
+  $parsed: "";
+  $leader: "";
   // If we're forcing
-  @if not ($empty-media) or not ($first) {
-    $leader: 'and ';
+  @if not($empty-media) or not ($first) {
+    $leader: "and ";
   }
 
   // If it's a single feature that can stand alone, we let it
@@ -22,5 +22,35 @@
     $parsed: breakpoint-parse-default($feature);
   }
 
-  @return $leader + '(' + $parsed + ')';
+  @return $leader + "(" + $parsed + ")";
+}
+
+.red-box {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f9e3e3;
+  word-break: keep-all;
+  margin: 24px 0;
+}
+
+.blue-box {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #d9edf7;
+  word-break: keep-all;
+  line-height: 36px;
+  margin: 24px 0;
+}
+
+.highlight {
+  color: #eb5757;
+  background: rgba(135, 131, 120, 0.15);
+  border-radius: 4px;
+  font-size: 80%;
+  padding: 0.2em 0.4em;
+}
+
+.mark {
+  background-color: #fff099;
+  padding: 0.2em 0.4em;
 }
