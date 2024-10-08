@@ -1,5 +1,5 @@
 ---
-title: "Javascript 개념 복기"
+title: "Javascript 개념을 정리하며 기술 면접 준비"
 layout: archive
 permalink: categories/javascript
 author_profile: true
