@@ -55,4 +55,6 @@ hydrate할 때 <mark class="mark">서버에서 렌더링된 정적 HTML과 클�
 
 HTML과 가상 DOM이 일치하지 않으면, React는 <mark class="mark">HTML을 다시 그리거나</mark> 기존 콘텐츠를 덮어쓴다. 이것은 성능적으로 비효율적일 뿐 아니라, 레이아웃이 변경되어 UX에 악영향을 줄 수 있다.
 
+## 📘 reference
+
 [React 공식문서 - hydrateRoot](https://ko.react.dev/reference/react-dom/client/hydrateRoot)
