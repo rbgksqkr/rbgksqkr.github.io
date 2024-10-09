@@ -25,16 +25,13 @@
   @return $leader + "(" + $parsed + ")";
 }
 
-* {
-  line-height: 36px;
-}
-
 .red-box {
   padding: 16px;
   border-radius: 8px;
   background-color: #f9e3e3;
   word-break: keep-all;
   margin: 24px 0;
+  line-height: 36px;
 }
 
 .blue-box {
@@ -43,6 +40,7 @@
   background-color: #d9edf7;
   word-break: keep-all;
   margin: 24px 0;
+  line-height: 36px;
 }
 
 .highlight {
