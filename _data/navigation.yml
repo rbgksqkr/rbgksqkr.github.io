@@ -10,6 +10,9 @@ main:
 docs:
   - title: 프론트엔드
     children:
+      - title: "트러블 슈팅"
+        url: /categories/trouble-shooting
+        category: "trouble-shooting"
       - title: "JS"
         url: /categories/javascript
         category: "javascript"
