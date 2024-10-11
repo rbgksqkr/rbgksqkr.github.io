@@ -55,3 +55,11 @@
   padding: 0.2em 0.4em;
   background: rgba(251, 243, 219, 1);
 }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 36px;
+  margin: 8px 0;
+}
