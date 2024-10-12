@@ -1,5 +1,5 @@
 ---
-title: "프로젝트를 진행하며 겪은 문제 상황과 해결 방법을 공유합니다."
+title: "발생한 문제 상황과 해결 방법 공유"
 layout: archive
 permalink: categories/trouble-shooting
 author_profile: true
