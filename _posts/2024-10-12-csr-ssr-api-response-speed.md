@@ -15,7 +15,7 @@ toc_sticky: true
     <div>CSR에서는 브라우저에서 자바스크립트 번들을 실행시켜 API 요청을 보낸다.</div>
     <div>브라우저에서 API서버로 요청을 보내기 때문에 사용자 네트워크 환경이 느릴수록 API 응답이 느리다.</div>
     <br />
-    <div>SSR은 SSR서버에서 API서버로 보내니까 사용자 네트워크 환경에 영향이 없지 않을까? ➡️ <span class="highlight">YES</span></div>
+    <div>SSR은 SSR서버에서 API서버로 보내니까 사용자 네트워크 환경에 영향이 없지 않을까? ➡️ <span class="high">YES</span></div>
     <div>진짜 영향이 없는지 실험해보자!</div>
 </div>
 
@@ -64,7 +64,7 @@ router.get("/", async (_, res) => {
 
 <div class="blue-box">
     <div style="font-weight: bold;">[ 결론 ]</div>
-    <div>측정 결과, <span class="highlight">CSR에서 API 응답 속도는 사용자의 네트워크 환경에 영향을 받고, SSR 에서는 영향 받지 않는다.</span></div>
+    <div>측정 결과, <span class="high">CSR에서 API 응답 속도는 사용자의 네트워크 환경에 영향을 받고, SSR 에서는 영향 받지 않는다.</span></div>
     <div>API 서버가 바쁘지 않은 이상, SSR의 API 응답속도가 더 안정적이며 빠르다.</div>
 </div>
 

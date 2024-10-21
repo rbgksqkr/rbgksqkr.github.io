@@ -17,13 +17,13 @@ toc_sticky: true
 - SSR과 CSR에서 Hydration의 차이점은 무엇인가요?
 - Hydration이 동작하는 과정을 설명해 주세요.
 - Hydration 과정에서 발생할 수 있는 문제는 무엇이며, 이를 어떻게 해결할 수 있나요?
-- React에서 <span class="highlight">hydrate()</span>와 <span class="highlight">render()</span>의 차이점은 무엇인가요?
+- React에서 <span class="high">hydrate()</span>와 <span class="high">render()</span>의 차이점은 무엇인가요?
 
 <div class="red-box">
     <div>hydration은 서버에서 만든 정적인 HTML에 React 컴포넌트 로직을 결합하여 상호작용이 가능하도록 만드는 과정입니다.</div>
-    <div>서버에서 만든 HTML은 이벤트가 하나도 없는 정적 파일인데, <span class="highlight">hydration을 통해 상호작용이 가능</span>해집니다.</div>
+    <div>서버에서 만든 HTML은 이벤트가 하나도 없는 정적 파일인데, <span class="high">hydration을 통해 상호작용이 가능</span>해집니다.</div>
     <br />
-    <div>주의할 점은 <span class="highlight">서버에서 렌더링한 HTML과 클라이언트에서 렌더링한 가상 DOM이 일치</span>해야 hydration이 정상적으로 이뤄집니다.</div>
+    <div>주의할 점은 <span class="high">서버에서 렌더링한 HTML과 클라이언트에서 렌더링한 가상 DOM이 일치</span>해야 hydration이 정상적으로 이뤄집니다.</div>
     <div>두 트리가 일치하지 않을 경우 화면을 다시 그리는 성능 문제나 애플리케이션이 동작하지 않는 에러가 발생할 수 있습니다.</div>
 </div>
 

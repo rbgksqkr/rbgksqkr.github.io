@@ -22,10 +22,10 @@ toc_sticky: true
   - 콜스택과 힙이 과하게 사용되면 각각 어떤 문제가 발생할 수 있나요?
 
 <div class="red-box">
-    <div>콜스택은 <span class="highlight">함수들의 호출 순서를 제어하는 자료구조</span>입니다.</div>
+    <div>콜스택은 <span class="high">함수들의 호출 순서를 제어하는 자료구조</span>입니다.</div>
     <div>함수가 호출되면 콜스택의 최상단에 쌓이고, 함수가 종료되면 콜스택에서 제거됩니다.</div>
     <br />
-    <div>힙은 객체, 배열, 함수처럼 <span class="highlight">크기가 동적으로 변할 수 있는 참조타입 값을 저장하는 공간</span>입니다.</div>
+    <div>힙은 객체, 배열, 함수처럼 <span class="high">크기가 동적으로 변할 수 있는 참조타입 값을 저장하는 공간</span>입니다.</div>
     <div>콜스택과 달리 훨씬 큰 메모리 공간을 가집니다.</div>
     <br />
     <div>콜스택은 <mark class="mark">원시타입 데이터와 함수 호출의 실행 컨텍스트를 저장</mark>하며, 힙은 <mark class="mark">참조 데이터를 저장</mark>합니다.</div>
@@ -48,7 +48,7 @@ toc_sticky: true
 <div class="blue-box">
   <li>가비지 컬렉션이란 더이상 사용되지 않는 메모리 영역을 해제하는 작업이다.</li>
   <li>우리가 사용하는 원시값, 객체, 함수 등은 모두 메모리를 차지하는데, 어떻게든 접근하거나 사용할 수 있는 값은 메모리에서 삭제하지 않는다.</li>
-  <li>자바스크립트의 가비지 컬렉션은 <span class="highlight">mark-and-sweep 알고리즘</span>으로 동작한다.</li>
+  <li>자바스크립트의 가비지 컬렉션은 <span class="high">mark-and-sweep 알고리즘</span>으로 동작한다.</li>
   <li>루트가 참조하고 있는 모든 객체를 방문하고 mark하는 과정을 반복하며, mark되지 않은 모든 객체를 메모리에서 삭제한다.</li>
 </div>
 
