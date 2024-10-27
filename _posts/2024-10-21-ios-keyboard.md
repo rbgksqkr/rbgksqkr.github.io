@@ -169,8 +169,8 @@ export default useButtonHeightOnKeyboard;
 
 - 주어진 창에 대한 시각적 viewport 높이
 
-## 📘 reference
+### 📘 reference
 
-- [채널톡 - iOS15 대응기 (feat. 크로스 브라우징)](https://channel.io/ko/blog/articles/12bccbc3)
+- [iOS15 대응기 (feat. 크로스 브라우징) - 채널톡](https://channel.io/ko/blog/articles/12bccbc3)
 - [https://velog.io/@gene028/ios-keyboard](https://velog.io/@gene028/ios-keyboard)
 - [https://im-developer.tistory.com/201](https://im-developer.tistory.com/201)

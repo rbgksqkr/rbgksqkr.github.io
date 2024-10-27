@@ -105,7 +105,7 @@ export const value = "foo"; // 가능
 
 ## 📘 reference
 
-- [토스 - CommonJS와 ESM에 모두 대응하는 라이브러리 개발하기: exports field](https://toss.tech/article/commonjs-esm-exports-field)
-- [카카오 - CommonJS에서 ESM으로 전환하기](https://tech.kakao.com/posts/605)
+- [CommonJS와 ESM에 모두 대응하는 라이브러리 개발하기: exports field - 토스](https://toss.tech/article/commonjs-esm-exports-field)
+- [CommonJS에서 ESM으로 전환하기 - 카카오](https://tech.kakao.com/posts/605)
 - [https://ko.javascript.info/modules-intro](https://ko.javascript.info/modules-intro)
 - [https://f-lab.kr/insight/commonjs-vs-esmodule-20240523](https://f-lab.kr/insight/commonjs-vs-esmodule-20240523)
