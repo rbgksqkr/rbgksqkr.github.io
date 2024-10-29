@@ -91,7 +91,7 @@ export const timerWrapper = (timeLimit: number) => css`
 
 <div class="blue-box">
     <div>나누기 연산으로 인해 애니메이션이 프레임마다 재계산되면서 끊기는 문제가 발생한다.</div>
-    <div>또한 모바일 환경은 PC에 비해 느리고 <span class="high">부동소수점 계산 오차</span>로 비율 계산이 정확하지 않아, <mark class="mark">계산한 값와 실제 화면에 그려지는 위치 간에 차이가 발생</mark>한다.</div>
+    <div>또한 모바일 환경은 PC에 비해 느리고 <span class="high">소수점 계산 오차</span>로 비율 계산이 정확하지 않아, <mark class="mark">계산한 값와 실제 화면에 그려지는 위치 간에 차이가 발생</mark>한다.</div>
     <div>나누기 연산을 제거하고 <mark class="mark">timeLimit 동안 애니메이션을 동작시켜 부드럽게 실행</mark>한다.</div>
 </div>
 
