@@ -1,11 +1,11 @@
 ---
-title: "[크로스 브라우징] IOS 키보드 버그 개선"
+title: "[모바일] IOS 가상 키보드 버그 개선"
 layout: single
 excerpt: 땅콩 서비스를 개발하면서 IOS 환경에서만 가상 키보드 위로 버튼이 올라오지 않는 문제를 해결하였다.
 
 categories:
   - trouble-shooting
-tags: [크로스브라우징, 우아한테크코스, 땅콩, IOS, 키보드]
+tags: [우아한테크코스, 땅콩, 모바일, IOS, 가상 키보드]
 toc_label: API 응답속도 비교
 toc: true
 toc_sticky: true
