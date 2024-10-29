@@ -12,6 +12,7 @@ toc_sticky: true
 ---
 
 <div class="red-box">
+  <div>모바일 환경에서 닉네임 입력할 때 확대되고 버튼이 아래 붙어 있어 불편하다는 사용자 피드백을 받아 개선하였다.</div>
   <div>모바일 환경에서 입력창을 포커스할 때, 키보드가 올라온다.</div>
   <div>화면 하단에 붙어있는 버튼을 키보드 위로 올리려고 한다.</div>
   <div>현재 구현한 방식은 android에서는 동작하는데, <mark class="mark">IOS에서 동작하지 않는다.</mark></div>
@@ -68,10 +69,12 @@ IOS에서 document에 resize 이벤트가 발생하지 않은 이유는 <mark cl
 
 개선해야할 부분은 크게 4가지가 있었고, 각각에 대한 해결 방안은 아래에 별도로 작성하였다.
 
-- 가상 키보드로 인해 resize 이벤트가 동작하지 않아 버튼이 안올라오는 현상
-- 입력창을 클릭했을 때 확대되는 현상
-- IOS 자체적으로 인풋창이 화면의 가운데에 위치시키기 위해 스크롤을 발생시키는 현상
-- 가상 키보드가 올라오면서 그 공간으로 스크롤이 생기는 현상
+<div class="blue-box">
+  <div>가상 키보드로 인해 resize 이벤트가 동작하지 않아 버튼이 안올라오는 현상</div>
+  <div>입력창을 클릭했을 때 확대되는 현상</div>
+  <div>IOS 자체적으로 인풋창이 화면의 가운데에 위치시키기 위해 스크롤을 발생시키는 현상</div>
+  <div>가상 키보드가 올라오면서 그 공간으로 스크롤이 생기는 현상</div>
+</div>
 
 ## ❌ 개선 전
 
@@ -97,13 +100,13 @@ IOS에서 document에 resize 이벤트가 발생하지 않은 이유는 <mark cl
 
 ### 가상 키보드가 올라오면서 그 공간으로 스크롤이 생기는 현상
 
-여러 방식을 사용했지만 [해당 블로그](https://im-developer.tistory.com/201)에서 소개하는 가장 쉬우면서도 현재 상황에 적절한 <mark class="mark"><span class="high">touchmove 이벤트</span> 동작을 막아 스크롤이 되지 않도록 설정하여 해결</mark>하였다.
-
-[https://github.com/user-attachments/assets/209c1f85-0974-4eac-9942-714064004982](https://github.com/user-attachments/assets/209c1f85-0974-4eac-9942-714064004982)
+여러 방식을 사용했지만 [해당 블로그](https://im-developer.tistory.com/201)에서 소개하는 가장 쉬우면서도 현재 상황에 적절한 <span class="high">touchmove 이벤트</span> <mark class="mark">동작을 막아 스크롤이 되지 않도록 설정하여 해결</mark>하였다.
 
 ## ✅ 개선 후 (코드 포함)
 
-[https://github.com/user-attachments/assets/fb991e58-45c6-4716-add7-1bad69bea282](https://github.com/user-attachments/assets/fb991e58-45c6-4716-add7-1bad69bea282)
+|                                                                            개선 전                                                                             |                                                                            개선 후                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <video src="https://github.com/user-attachments/assets/209c1f85-0974-4eac-9942-714064004982" autoplay muted loop style="width: 300px; height: 400px;"></video> | <video src="https://github.com/user-attachments/assets/fb991e58-45c6-4716-add7-1bad69bea282" autoplay muted loop style="width: 300px; height: 400px;"></video> |
 
 ```ts
 import { useEffect, useState } from "react";
