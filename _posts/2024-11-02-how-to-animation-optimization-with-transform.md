@@ -11,6 +11,8 @@ toc: true
 toc_sticky: true
 ---
 
+> transform을 사용하면 reflow, repaint를 일으키지 않고 합성 단계만 거쳐 애니메이션 최적화를 통해 개선되었다.
+
 <div class="red-box">
     <div><b>[ transform 속성을 활용하면 왜 합성 단계만 거치나요? ]</b></div>
     <div>transform은 좌표공간을 변형함으로써 문서 흐름을 방해하지 않고 콘텐츠의 형태와 위치를 바꾼다.</div>
