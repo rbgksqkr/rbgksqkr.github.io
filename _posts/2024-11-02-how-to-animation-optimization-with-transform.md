@@ -131,4 +131,4 @@ transform 속성만 사용해도 새로운 레이어를 생성할 수 있지만,
 
 - [will-change의 숨겨진 의미 - 블로그](https://ghlee.dev/what-will-change-really-means)
 
-- [CSS 왜 transform 애니메이션 성능이 좋을까 - 블로그](https://mong-blog.tistory.com/entry/CSS-%EC%99%9C-transform-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%84%B1%EB%8A%A5%EC%9D%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C-with-GPU-Reflow)
+- [왜 transform의 애니메이션 성능이 좋을까 - 블로그](https://mong-blog.tistory.com/entry/CSS-%EC%99%9C-transform-%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98-%EC%84%B1%EB%8A%A5%EC%9D%B4-%EC%A2%8B%EC%9D%84%EA%B9%8C-with-GPU-Reflow)
