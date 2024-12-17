@@ -28,6 +28,9 @@ docs:
       - title: "회고"
         url: /categories/retrospect
         category: "retrospect"
+      - title: "CS"
+        url: /categories/computer-science
+        category: "computer-science"
   - title: 알고리즘
     children:
       - title: "기초"
