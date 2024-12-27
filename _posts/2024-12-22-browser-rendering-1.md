@@ -19,7 +19,7 @@ toc_sticky: true
 </div>
 
 <div class="blue-box">
-  <div>첫 번째로, 브라우저의 기능과 역할, 구성 요소에 대해 이해하자.</div>
+  <div>1. 브라우저의 기능과 역할, 구성 요소에 대해 이해하자.</div>
 </div>
 
 ## 📘 브라우저의 기본 기능
@@ -63,6 +63,7 @@ Safari는 `WebKit`, Chrome은 `Blink` 사용 (WebKit 기반)
   <div>3. DOM 트리와 CSSOM 트리를 결합하여 화면에 출력할 렌더 트리를 생성한다.</div>
   <div>4. 각 노드가 화면에 표시될 위치를 계산하기 위해 레이아웃 단계를 거친다.</div>
   <div>5. 렌더 트리를 탐색하며 각 노드가 UI 백엔드 레이어를 사용하여 페인팅 단계를 거친다.</div>
+  <div>6. 레이아웃 단계에서 생성한 레이어별로 페인트를 하고, 합성 단계에서 레이어를 합성하여 최종 화면을 출력한다.</div>
 </div>
 
 <img width="500" src="https://github.com/user-attachments/assets/1c9aaea8-c132-4dec-af89-5f797c30c1f2" />
