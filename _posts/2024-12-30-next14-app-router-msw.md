@@ -342,11 +342,11 @@ export default async function Home() {
 
 ## 📘 reference
 
-- msw module not found 해결: https://github.com/mswjs/msw/issues/1801#issuecomment-1793911389
+- [msw module not found 해결 - github issue](https://github.com/mswjs/msw/issues/1801#issuecomment-1793911389)
 - SSR fetch mocking 문제 해결
-  - https://blog.naver.com/dlaxodud2388/223433157608
-  - https://github.com/mswjs/msw/issues/1644#issuecomment-1750722052
-- 불필요한 worker 호출 해결: [https://velog.io/@sarajo/Next.js-프로젝트에-MSW-도입하기-API-호출-비용-절감하기#6-msw-컴포넌트-생성](https://velog.io/@sarajo/Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-MSW-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0-API-%ED%98%B8%EC%B6%9C-%EB%B9%84%EC%9A%A9-%EC%A0%88%EA%B0%90%ED%95%98%EA%B8%B0#6-msw-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
+  - [https://blog.naver.com/dlaxodud2388/223433157608](https://blog.naver.com/dlaxodud2388/223433157608)
+  - [https://github.com/mswjs/msw/issues/1644#issuecomment-1750722052](https://github.com/mswjs/msw/issues/1644#issuecomment-1750722052)
+- [불필요한 worker 호출 해결](https://velog.io/@sarajo/Next.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-MSW-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0-API-%ED%98%B8%EC%B6%9C-%EB%B9%84%EC%9A%A9-%EC%A0%88%EA%B0%90%ED%95%98%EA%B8%B0#6-msw-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EC%83%9D%EC%84%B1)
 - 참고 블로그
-  - https://www.handongryong.com/post/msw/
+  - [https://www.handongryong.com/post/msw/](https://www.handongryong.com/post/msw/)
   - [https://velog.io/@ssoon-m/Next.js-app-directory의-서버-컴포넌트에서-msw-사용하기](https://velog.io/@ssoon-m/Next.js-app-directory%EC%9D%98-%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%EC%84%9C-msw-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
