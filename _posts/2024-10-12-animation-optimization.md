@@ -11,6 +11,8 @@ toc: true
 toc_sticky: true
 ---
 
+PR 링크: [https://github.com/woowacourse-teams/2024-ddangkong/pull/297](https://github.com/woowacourse-teams/2024-ddangkong/pull/297)
+
 ## 🚨 문제 상황
 
 중간 데모데이 당시, 부스를 운영하며 함께 땅콩 서비스를 이용하였는데, 사용자의 모바일 환경에서 `타이머가 심하게 끊기는 현상`을 발견하였습니다. 처음에는 현장 네트워크가 혼잡해 발생한 일시적인 지연이라 판단했습니다.
