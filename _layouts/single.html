@@ -13,55 +13,30 @@ breadcrumbs.html %} {% endunless %} {% endif %}
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <article
-    class="page"
-    itemscope
-    itemtype="https://schema.org/CreativeWork"
-    {%
-    if
-    page.locale
-    %}
-    lang="{{ page.locale }}"
-    {%
-    endif
-    %}
-  >
-    {% if page.title %}<meta
-      itemprop="headline"
-      content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}"
-    />{% endif %} {% if page.excerpt %}<meta
-      itemprop="description"
-      content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}"
-    />{% endif %} {% if page.date %}<meta
-      itemprop="datePublished"
-      content="{{ page.date | date_to_xmlschema }}"
-    />{% endif %} {% if page.last_modified_at %}<meta
-      itemprop="dateModified"
-      content="{{ page.last_modified_at | date_to_xmlschema }}"
-    />{% endif %}
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}
+    lang="{{ page.locale }}" {% endif %}>
+    {% if page.title %}
+    <meta itemprop="headline"
+      content="{{ page.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}" />{%
+    endif %} {% if page.excerpt %}
+    <meta itemprop="description"
+      content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}" />{% endif %} {% if
+    page.date %}
+    <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}" />{% endif %} {% if
+    page.last_modified_at %}
+    <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}" />{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
       <header>
         {% if page.title %}
         <h1 id="page-title" class="page__title p-name" itemprop="headline">
-          <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url"
-            >{{ page.title | markdownify | remove: "
+          <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "
             <p>" | remove: "</p>
-            " }}</a
-          >
+            " }}
+          </a>
         </h1>
         {% endif %} {% include page__meta.html %}
-        <div>
-          <a
-            href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
-            target="_blank"
-          >
-            <img
-              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%239ECAFF&title_bg=%23555555&icon=reverbnation.svg&icon_color=%23FFFFFF&title=%EB%B0%A9%EB%AC%B8%EC%9E%90%EC%88%98&edge_flat=false"
-            />
-          </a>
-        </div>
       </header>
       {% endunless %}
 
@@ -83,10 +58,9 @@ breadcrumbs.html %} {% endunless %} {% endif %}
         </aside>
         {% endif %} {{ content }} {% if page.link %}
         <div>
-          <a href="{{ page.link }}" class="btn btn--primary"
-            >{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct
-            Link" }}</a
-          >
+          <a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default:
+            "Direct
+            Link" }}</a>
         </div>
         {% endif %}
       </section>
@@ -110,7 +84,8 @@ breadcrumbs.html %} {% endunless %} {% endif %}
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{%
   endcomment %} {% if page.id and page.related and site.related_posts.size > 0
-  %} {% include page__related.html posts=site.related_posts %} {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{%
+  %} {% include page__related.html posts=site.related_posts %} {% comment
+  %}<!-- otherwise show recent posts if no related when `related: true` -->{%
   endcomment %} {% elsif page.id and page.related %} {% include
   page__related.html posts=site.posts %} {% endif %}
 </div>
