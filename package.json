@@ -3,6 +3,9 @@
   "private": true,
   "version": "4.26.2",
   "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "scripts": {
+    "start": "rm -rf _site && bundle exec jekyll serve"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mmistakes/minimal-mistakes.git"
