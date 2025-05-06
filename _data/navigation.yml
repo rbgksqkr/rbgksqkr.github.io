@@ -31,23 +31,6 @@ docs:
       - title: "CS"
         url: /categories/computer-science
         category: "computer-science"
-  - title: 알고리즘
-    children:
-      - title: "기초"
-        url: /categories/algorithm/basic
-        category: "기초"
-      - title: "구현"
-        url: /categories/algorithm/implement
-        category: "구현"
-      - title: "백트래킹"
-        url: /categories/algorithm/backtracking
-        category: "백트래킹"
-      - title: "탐색(BFS/DFS)"
-        url: /categories/algorithm/search
-        category: "탐색(BFS/DFS)"
-      - title: "이분탐색"
-        url: /categories/algorithm/binary-search
-        category: "이분탐색"
 
 counts:
   - title: "Category"
