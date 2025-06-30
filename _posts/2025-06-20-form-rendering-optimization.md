@@ -1,11 +1,11 @@
 ---
-title: "[리액트 렌더링] 리액트 렌더링 최적화를 통해 스크립트 실행 시간 69% 감소 및 INP 30% 개선 (1)"
+title: "[리액트 렌더링] 불필요한 formState 참조로 인해 페이지 전체가 리렌더링되어 리액트 렌더링 최적화를 통해 스크립트 실행 시간 58% 개선"
 layout: single
-excerpt: 렌더링 최적화를 통해 스크립트 실행 시간을 최적화하면서, 입력 지연을 개선시킨 경험을 소개한다.
+excerpt: react-hook-form과 렌더링 최적화를 적용하며 스크립트 실행 시간을 개선한 경험을 소개한다.
 
 categories:
   - trouble-shooting
-tags: [리액트 렌더링 최적화, react-hook-form, 입력 지연, INP]
+tags: [리액트 렌더링 최적화, react-hook-form, INP]
 toc_label: 렌더링 최적화
 toc: true
 toc_sticky: true
