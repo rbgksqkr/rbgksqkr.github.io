@@ -1,5 +1,5 @@
 ---
-title: "[리액트 렌더링] 저사양 환경에서 입력 지연이 발생하여 useTransition으로 상태 업데이트 우선순위를 조정하여 INP 17%개선"
+title: "[리액트 렌더링] 저사양 환경에서 입력 지연이 발생하여 useTransition으로 상태 업데이트 우선순위를 조정하여 INP 17% 개선"
 layout: single
 excerpt: useTransition을 활용하여 입력 지연을 개선한 경험을 소개한다.
 
@@ -95,3 +95,4 @@ const isInputPending =
 
 - [isInputPending - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Scheduling/isInputPending)
 - [Scheduler.js - v18.3.1](https://github.com/facebook/react/blob/f1338f8080abd1386454a10bbf93d67bfe37ce85/packages/scheduler/src/forks/Scheduler.js#L97)
+- [INP 최적화 - web.dev](https://web.dev/articles/optimize-inp?hl=ko)
