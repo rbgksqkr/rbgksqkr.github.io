@@ -114,8 +114,8 @@ analytics:
 author:
   name: "박규한"
   avatar: https://avatars.githubusercontent.com/u/63959171?v=4 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "woowacourse 6th FE"
-  location: "Seoul"
+  # bio: "🥕 daangn"
+  # location: "Seoul"
   email:
   links:
     - label: "GitHub"
