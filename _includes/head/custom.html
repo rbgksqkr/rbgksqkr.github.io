@@ -1,5 +1,32 @@
-<!-- start custom head snippets -->
+<script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+    // 1) 페이지 로드 후, fenced code block을 div.mermaid로 변환
+    const toMermaid = () => {
+        document.querySelectorAll('pre code.language-mermaid').forEach(code => {
+            const pre = code.parentElement;
+            const graph = code.textContent;
+            const div = document.createElement('div');
+            div.className = 'mermaid';
+            div.textContent = graph;
+            pre.replaceWith(div);
+        });
+    };
 
-<!-- end custom head snippets -->
+    // 2) Mermaid 초기화
+    const initMermaid = () => {
+        mermaid.initialize({
+            startOnLoad: false,      // 우리가 수동으로 run
+            securityLevel: "loose",  // note over 등 사용 시 편함
+            theme: "default"         // 필요하면 'dark' 등으로 변경
+        });
+        mermaid.run({ querySelector: ".mermaid" });
+    };
+
+    // DOM 준비되면 실행
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", () => { toMermaid(); initMermaid(); });
+    } else {
+        toMermaid(); initMermaid();
+    }
+</script>
