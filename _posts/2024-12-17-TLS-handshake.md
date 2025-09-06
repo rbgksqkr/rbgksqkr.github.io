@@ -1,11 +1,11 @@
 ---
-title: "[CS] TLS handshake"
+title: "[Network] TLS handshake"
 layout: single
 excerpt: TLS handshake가 어떻게 이뤄지는지 이해할 수 있다.
 
 categories:
   - computer-science
-tags: [CS, 네트워크]
+tags: [CS, Network]
 toc_label: TLS handshake
 ---
 
